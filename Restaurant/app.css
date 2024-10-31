@@ -1,0 +1,64 @@
+.body{
+    background-color: teal;
+}
+
+.headercontainer{
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.hero {
+    width: 100%; 
+    height: 600px; 
+    background-image: url('images/pexels-ash-craig-122861-376464.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    align-self: center;
+}
+
+.meal{
+    font-family: 'Pacifico', cursive; /* Use the selected font family */
+    font-size: 2em; /* Adjust size as needed */
+    color: #333;
+    font-style: oblique;
+
+}
+.image-list li {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: whitesmoke; /* Optional: adds spacing between list items */
+}
+
+.uniform-image {
+    width: 100%;       /* Full width within the column */
+    height: 400px;     /* Set a uniform height */
+    object-fit: cover; /* Crop the image to fill the set height/width */
+}
+
+.h1menu{
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-stretch: expanded;
+    
+}
+
+.price {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+footer {
+    background-color: #333;
+}
+
